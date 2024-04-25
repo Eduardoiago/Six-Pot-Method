@@ -71,7 +71,7 @@ _A estrutura mais conhecida do método dos seis potes é dividida da seguinte fo
 ```
 
 ## License
- * [MIT](LICENSE)
+ * [GNU General Public License v3.0](LICENSE)
 
 ## Technologies used:
 
@@ -80,4 +80,5 @@ _A estrutura mais conhecida do método dos seis potes é dividida da seguinte fo
 ##### Bibliotecas JS
 
 `Chart` was used to convert the calculation into a graph.
+
 `Toastify` was used in js to generate alerts for invalid commands.
