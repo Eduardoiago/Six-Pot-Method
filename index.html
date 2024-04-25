@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Six Pot Method Project -->
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="./assets/img/spm_icon.png" type="sixPotMethod">
+        <title>Six Pot Method</title>
+        <meta name="description" content="Método dos seis potes">
+        <meta name="author" content="Eduardo Iago">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav_SPM">
+                <a href="./info.html">INFO</a>
+                <a href="https://github.com/Eduardoiago">GITHUB</a>
+                <a href="https://github.com/Eduardoiago/Six-Pot-Method">DOC</a>
+            </nav>
+        </header>
+        <img class="isotitle" src="./assets/img/spm_iso-textFull.png" alt="logotipo" width="600px">
+        <div class="container glass">
+            <h2 class="h2_SPM">Calculadora SPM</h2><br>
+            <label class="value" for="inputValor">Insira o valor:</label>
+            <input type="number" id="inputValor" placeholder="R$">
+            <button onclick="calcularPorcentagens()">Calcular</button>
+            <br><br>
+            <div class="chart-container">
+                <canvas id="chart"></canvas>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="./js/script.js"></script>
+        <footer><h4>&copy; Version 1.0</h4></footer>
+    </body>
+</html>
