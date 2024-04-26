@@ -13,9 +13,9 @@ _Version 1.0 of the project was created just to analyze the functioning and layo
 
 - [ ] Visual identity planning.
 - [ ] Conversion of the site to other currencies.
-- [ ] Improve visualization of the graph.
+- [ ] Configuring the visualization of the graph.
 - [ ] Option for the user to choose the value of the percentages.
-- [ ] Configure Media Query for all devices.
+- [ ] Configuring the media query.
 
 #
 
