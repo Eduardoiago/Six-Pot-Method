@@ -1,4 +1,4 @@
-
+/* Paleta de Cores */
 :root
 {
     --color-primary-1: #6fffe9;
@@ -22,7 +22,7 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/img/background_spm.jpg);
+    background-image: url(../assets/img/background-spm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,12 +44,17 @@ header
     color: var(--color-primary-2);
     font-weight: 600;
     text-decoration: none;
+    cursor: pointer;
     transition: .2s;
 }
 
 a:hover{
     color: var(--color-primary-5);
     font-size: 17px;
+}
+
+.isotitle{
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
 }
 
 .h2_SPM
@@ -108,7 +113,7 @@ button {
     background-color: var(--color-primary-2);
     color: var(--color-primary-5);
     border: 1px solid var(--color-primary-5);
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;
@@ -122,6 +127,7 @@ button:hover
 
 footer
 {
+    color: white;
     padding: 18px;
 }
 

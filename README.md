@@ -11,7 +11,7 @@ _Version 1.0 of the project was created just to analyze the functioning and layo
 
 ### Pending Updates
 
-- [ ] Visual identity planning.
+- [x] Visual identity planning.
 - [ ] Conversion of the site to other currencies.
 - [ ] Configuring the visualization of the graph.
 - [ ] Option for the user to choose the value of the percentages.
@@ -45,15 +45,11 @@ _The best-known structure of the six pot method is divided as follows: 55%, 10%,
 
 ## Layout
 
-<img src="./assets/img/layout-spm.png" alt="Layout">
-
-#### Info Page
-
-<img src="./assets/img/layout-info-spm.png" alt="Layout-info">
+<img src="./assets/img/layout-web-index.png" alt="Layout">
 
 #### Mobile
 
-<img src="./assets/img/layout-mobile-spm.png">
+<img src="./assets/img/layout-mobile.png">
 
 ## Color palette:
 

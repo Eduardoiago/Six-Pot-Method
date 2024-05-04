@@ -18,7 +18,7 @@ let myChart;
         // 10% : Entretenimentos
         // 05% : Doações e Presentes 
 
-        const porcentagens = [40, 20, 15, 10, 10, 5];
+        const porcentagens = [40, 20, 15, 10, 10, 5]; 
         const resultados = porcentagens.map(porcentagem => (valor * porcentagem) / 100);
 
         if (myChart) {
@@ -69,10 +69,10 @@ let myChart;
             }
         });
     }
-
+    
     function message() {
         Toastify({
-            text: "Por favor, insira um valor válido.",
+            text: "Insira o valor que deseja calcular!",
             gravity: "top",
             duration: 3000,
             position: "right",
