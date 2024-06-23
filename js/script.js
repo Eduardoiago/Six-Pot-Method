@@ -29,20 +29,20 @@ let myChart;
                     label: 'Valores',
                     data: resultados,
                     backgroundColor: [
-                        '#024053',
-                        '#136B69',
-                        '#2A836B',
-                        '#499C70',
-                        '#6EB47D',
-                        '#9DCC9B'
+                        '#295700',
+                        '#267C01',
+                        '#2A9C01',
+                        '#2FB201',
+                        '#6BD14F',
+                        '#92E37C'
                     ],
                     borderColor: [
-                        '#024053',
-                        '#136B69',
-                        '#2A836B',
-                        '#499C70',
-                        '#6EB47D',
-                        '#9DCC9B'
+                        '#295700',
+                        '#267C01',
+                        '#2A9C01',
+                        '#2FB201',
+                        '#6BD14F',
+                        '#92E37C'
                     ],
                     borderWidth: 0
                 }]
