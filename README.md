@@ -24,12 +24,12 @@ To see the project online just click on [HERE](https://sixpot.netlify.app) or en
 
 ---
 
-## Functionalities
+### Functionalities
 
 - **Organizing financial income**: Using the six pots method, you can separate income for various topics and vary the percentage according to the topics.
 - **Optimization for calculating percentages**: The option to change percentages will be implemented in the tool. The user will then be able to modify them according to their plan.  
 
-## Configuration
+### Configuration
 
 | Percentages   | Description         |
 |---------------|---------------------|
@@ -42,13 +42,11 @@ To see the project online just click on [HERE](https://sixpot.netlify.app) or en
 
 _The best-known structure of the six pot method is divided as follows: 55%, 10%, 10%, 10%, 10%, 5%. However, this way works better for me. An option will be added for the user to choose the percentages they want to calculate using the method._ 
 
-## Layout
+### Layout
 
-<img src="./assets/img/layout-web-index.png" alt="Layout">
+<img src="./assets/layout/layout-index.png" alt="Layout">
 
-#### Mobile
-
-<img src="./assets/img/layout-mobile.png">
+<img src="./assets/layout/layout-info.png" alt="Layout">
 
 ## License
  * [GNU General Public License v3.0](LICENSE)
