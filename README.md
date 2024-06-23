@@ -1,9 +1,9 @@
 
-<img src="./assets/img/spm_iso-textFull.png" alt="title-spm">
+<img src="./assets/layout/painel-sixpot.png" alt="title-spm">
 
 #### Calculator for Financial Organization 
 
-The Six Pot Method project was developed using `HTML`, `CSS` and `JavaScript`. The **Chart** libraries were used to convert the calculation into a graph, and **Toastify** to warn of invalid functions. This financial organization strategy can be applied with different objectives: keeping bills paid, setting up an emergency reserve, paying off debts, making a retirement plan, achieving goals, etc.
+The Six Pot project was developed using `HTML`, `CSS` and `JavaScript`. The **Chart** libraries were used to convert the calculation into a graph, and **Toastify** to warn of invalid functions. This financial organization strategy can be applied with different objectives: keeping bills paid, setting up an emergency reserve, paying off debts, making a retirement plan, achieving goals, etc.
 
 The project is quite old, I had done it in excel before because I used it a lot. I thought I'd develop it because I hadn't seen any online tool that uses the six pot method to calculate recipes. The project is still under development. If you have any ideas for improving the tool, please contribute or get in touch to help finalize it.
 
@@ -11,7 +11,6 @@ _Version 1.0 of the project was created just to analyze the functioning and layo
 
 ### Pending Updates
 
-- [x] Visual identity planning.
 - [ ] Conversion of the site to other currencies.
 - [ ] Configuring the visualization of the graph.
 - [ ] Option for the user to choose the value of the percentages.
@@ -21,7 +20,7 @@ _Version 1.0 of the project was created just to analyze the functioning and layo
 
 > ## Online Project
 
-To see the project online just click on [HERE](https://sixpotmethod.netlify.app) or enter the link [sixpotmethod.netlify.app](https://sixpotmethod.netlify.app).
+To see the project online just click on [HERE](https://sixpot.netlify.app) or enter the link [sixpot.netlify.app](https://sixpot.netlify.app).
 
 ---
 
@@ -32,14 +31,14 @@ To see the project online just click on [HERE](https://sixpotmethod.netlify.app)
 
 ## Configuration
 
-| Percentages   | Description        |
-|---------------|--------------------|
-|  40%          | Working Capital    |
-|  20%          | Retirement         |
-|  15%          | Emergency Box      |
-|  10%          | Investments        |
-|  10%          | Entertainment      |
-|  5%           | Donations and Gifts|
+| Percentages   | Description         |
+|---------------|---------------------|
+|  40%          | Working Capital     |
+|  20%          | Retirement          |
+|  15%          | Emergency Box       |
+|  10%          | Investments         |
+|  10%          | Entertainment       |
+|  5%           | Donations and Gifts |
 
 _The best-known structure of the six pot method is divided as follows: 55%, 10%, 10%, 10%, 10%, 5%. However, this way works better for me. An option will be added for the user to choose the percentages they want to calculate using the method._ 
 
@@ -50,21 +49,6 @@ _The best-known structure of the six pot method is divided as follows: 55%, 10%,
 #### Mobile
 
 <img src="./assets/img/layout-mobile.png">
-
-## Color palette:
-
-<img src="./assets/id_visual/colors.png" alt="color-palette">
-
-``` css
-:root
-{
-    --color-primary-1: #6fffe9;
-    --color-primary-2: #5bc0be;
-    --color-primary-3: #3a506b;
-    --color-primary-4: #1c2541;
-    --color-primary-5: #0b132b;
-}
-```
 
 ## License
  * [GNU General Public License v3.0](LICENSE)
