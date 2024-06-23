@@ -11,12 +11,7 @@ let myChart;
             return valor;
         }
 
-        // 40% : Capital de Giro  
-        // 20% : Aposentadoria
-        // 15% : Caixa Emergêncial 
-        // 10% : Investimentos
-        // 10% : Entretenimentos
-        // 05% : Doações e Presentes 
+        // 40% : Capital de Giro | 20% : Aposentadoria | 15% : Caixa Emergêncial | 10% : Investimentos | 10% : Entretenimentos | 05% : Doações e Presentes
 
         const porcentagens = [40, 20, 15, 10, 10, 5]; 
         const resultados = porcentagens.map(porcentagem => (valor * porcentagem) / 100);
@@ -34,20 +29,20 @@ let myChart;
                     label: 'Valores',
                     data: resultados,
                     backgroundColor: [
-                        '#0A2239',
-                        '#176087',
-                        '#132E32',
-                        '#1D84B5',
-                        '#53A2BE',
-                        '#87CEEB'
+                        '#024053',
+                        '#136B69',
+                        '#2A836B',
+                        '#499C70',
+                        '#6EB47D',
+                        '#9DCC9B'
                     ],
                     borderColor: [
-                        '#0A2239',
-                        '#176087',
-                        '#132E32',
-                        '#1D84B5',
-                        '#53A2BE',
-                        '#87CEEB'
+                        '#024053',
+                        '#136B69',
+                        '#2A836B',
+                        '#499C70',
+                        '#6EB47D',
+                        '#9DCC9B'
                     ],
                     borderWidth: 0
                 }]
